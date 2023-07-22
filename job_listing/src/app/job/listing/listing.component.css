@@ -95,6 +95,48 @@
     transform: translate(105%, 35%);
 }
 
+.parente{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parente .secondParent{
+    transform: translate(100%, 35%);
+}
+
+.parentf{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parentf .secondParent{
+    transform: translate(82%, 35%);
+}
+
+.parentg{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parentg .secondParent{
+    transform: translate(103%, 35%);
+}
+
 .Children{
     padding: 0.8rem 0rem;
 }
