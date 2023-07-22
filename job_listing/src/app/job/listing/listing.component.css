@@ -21,6 +21,80 @@
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
 }
 
+.parenty .secondParent{
+    transform: translate(125%, 35%);
+}
+
+.parentz{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parentz .secondParent{
+    transform: translate(94%, 35%);
+}
+
+.parenta{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parenta .secondParent{
+    transform: translate(140%, 35%);
+}
+
+.parentb{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parentb .secondParent{
+    transform: translate(95%, 35%);
+}
+
+.parentc{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parentc .secondParent{
+    transform: translate(165%, 35%);
+}
+
+.parentd{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parentd .secondParent{
+    transform: translate(105%, 35%);
+}
+
 .Children{
     padding: 0.8rem 0rem;
 }
@@ -71,11 +145,10 @@
     display: inline-flex;
     font-size: x-small;
 }
-
 .secondParent {
     display: inline-flex;
     font-size: x-small;
-    transform: translate(110%,35%);
+    transform: translate(95%,35%);
     font-weight: 700;
 }
 
@@ -89,6 +162,3 @@
     
 }
 
-.parenty .secondParent{
-    transform: translate(141%, 35%);
-}
