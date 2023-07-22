@@ -1,0 +1,94 @@
+.Parent{
+    margin: 3rem;
+}
+
+.parentx{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.parenty{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    width: 80%;
+    margin: 1.5rem 0;
+    transform: translateX(13%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+}
+
+.Children{
+    padding: 0.8rem 0rem;
+}
+
+.Parent img {
+    margin: 1rem;
+    max-width: fit-content;
+    max-width: -moz-fit-content;
+}
+
+.childx5 {
+    font-size: large;
+    font-weight: 700;
+    margin: 0.55rem ;
+}
+
+.firstChild {
+    display: inline-flex;
+    font-size: x-small;
+    font-weight: 650;
+}
+
+.childx1, .childx3, .childx4 {
+    padding: 0.3rem 0.7rem;
+    margin: 0 0.2rem;
+    border-radius: 20px;
+}
+
+.childx2 {
+    margin: 0.1rem 1rem 0.3rem 1rem;
+}
+
+.childx1 {
+    color: rgb(53, 152, 119);
+}
+
+.childx3{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.childx4{
+    background-color:aquamarine;
+    color: rgb(23, 19, 15);
+}
+
+.secondChild {
+    display: inline-flex;
+    font-size: x-small;
+}
+
+.secondParent {
+    display: inline-flex;
+    font-size: x-small;
+    transform: translate(110%,35%);
+    font-weight: 700;
+}
+
+.child {
+    height: fit-content;
+    padding: 0.6rem;
+    margin: 0 0.5rem;
+    background-color: rgb(231, 241, 238);
+    color: rgb(53, 152, 119);
+    border-radius: 8px;
+    
+}
+
+.parenty .secondParent{
+    transform: translate(141%, 35%);
+}
