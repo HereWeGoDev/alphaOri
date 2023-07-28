@@ -1,8 +1,6 @@
-.Parent{
-    margin: 3rem;
-}
 
-.parentx{
+.parent {
+    margin: 0.5rem;
     font-family: 'Montserrat', sans-serif;
     display: inline-flex;
     width: 80%;
@@ -11,196 +9,86 @@
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
 }
 
-.parenty{
-    font-family: 'Montserrat', sans-serif;
+.container :hover{
+    border-left: 3.5px solid rgb(53, 152, 119);
+    border-bottom: 3.5px solid rgb(53, 152, 119);
+}
+
+.parent-left {
     display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
+    padding: 0.6rem 0rem;
 }
 
-.parenty .secondParent{
-    transform: translate(125%, 35%);
-}
-
-.parentz{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parentz .secondParent{
-    transform: translate(94%, 35%);
-}
-
-.parenta{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parenta .secondParent{
-    transform: translate(140%, 35%);
-}
-
-.parentb{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parentb .secondParent{
-    transform: translate(95%, 35%);
-}
-
-.parentc{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parentc .secondParent{
-    transform: translate(165%, 35%);
-}
-
-.parentd{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parentd .secondParent{
-    transform: translate(105%, 35%);
-}
-
-.parente{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parente .secondParent{
-    transform: translate(100%, 35%);
-}
-
-.parentf{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parentf .secondParent{
-    transform: translate(82%, 35%);
-}
-
-.parentg{
-    font-family: 'Montserrat', sans-serif;
-    display: inline-flex;
-    width: 80%;
-    margin: 1.5rem 0;
-    transform: translateX(13%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.1), 0 6px 20px 0 rgb(0, 0, 0, 0.10);
-}
-
-.parentg .secondParent{
-    transform: translate(103%, 35%);
-}
-
-.Children{
-    padding: 0.8rem 0rem;
-}
-
-.Parent img {
+img {
     margin: 1rem;
     max-width: fit-content;
     max-width: -moz-fit-content;
 }
 
-.childx5 {
-    font-size: large;
-    font-weight: 700;
-    margin: 0.55rem ;
+.job-details{
+    margin: 1rem 0 0 0;
 }
 
-.firstChild {
+.cmpny-details {
+    display: inline-flex;
+    font-size: small;
+}
+
+.job-duration {
     display: inline-flex;
     font-size: x-small;
-    font-weight: 650;
 }
 
-.childx1, .childx3, .childx4 {
+.parent-right {
+    font-size: x-small;
+    display: inline-flex;
+    /* transform: translate(110%,35%); */
+    align-items: center;
+    font-weight: 700;
+}
+
+.cmpny-name, .new, .featured {
+    margin: 0 0.5rem 0 0;
+    font-size: x-small;
     padding: 0.3rem 0.7rem;
-    margin: 0 0.2rem;
     border-radius: 20px;
 }
 
-.childx2 {
-    margin: 0.1rem 1rem 0.3rem 1rem;
-}
-
-.childx1 {
+.cmpny-name {
     color: rgb(53, 152, 119);
+    font-weight: 700;    
 }
 
-.childx3{
+.job-position{
+    font-size: large;
+    font-weight: 700;
+    margin: 0.3rem 0.55rem ;
+}
+
+.new {
     background-color: black;
     color: antiquewhite;
+    font-weight: 650;
 }
 
-.childx4{
+.featured {
     background-color:aquamarine;
-    color: rgb(23, 19, 15);
+    color: rgb(23, 19, 15); 
+    font-weight: 650;   
 }
 
-.secondChild {
-    display: inline-flex;
-    font-size: x-small;
-}
-.secondParent {
-    display: inline-flex;
-    font-size: x-small;
-    transform: translate(95%,35%);
-    font-weight: 700;
+.ago, .full-part, .location {
+    margin: 0.5rem;
 }
 
-.child {
+.role, .level, .language, .tools {
     height: fit-content;
     padding: 0.6rem;
     margin: 0 0.5rem;
     background-color: rgb(231, 241, 238);
     color: rgb(53, 152, 119);
     border-radius: 8px;
-    
 }
+
+
 
