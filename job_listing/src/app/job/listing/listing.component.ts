@@ -14,13 +14,9 @@ export class ListingComponent {
         "new": true,
         "featured": true,
         "position": "Senior Frontend Developer",
-        // "role": "Frontend",
-        // "level": "Senior",
         "postedAt": "1d ago",
         "contract": "Full Time",
         "location": "USA Only",
-        // "languages": ["HTML", "CSS", "JavaScript"],
-        // "tools": [],
         "tags": ['Frontend', "Senior", "HTML", "CSS", "JavaScript"]
       },
       {
@@ -30,13 +26,9 @@ export class ListingComponent {
         "new": true,
         "featured": true,
         "position": "Fullstack Developer",
-        "role": "Fullstack",
-        "level": "Midweight",
         "postedAt": "1d ago",
         "contract": "Part Time",
         "location": "Remote",
-        "languages": ["Python"],
-        "tools": ["React"],
         "tags": ['FullStack', "Midweight", "Python", "React"]
       },
       {
@@ -46,13 +38,9 @@ export class ListingComponent {
         "new": true,
         "featured": false,
         "position": "Junior Frontend Developer",
-        "role": "Frontend",
-        "level": "Junior",
         "postedAt": "2d ago",
         "contract": "Part Time",
         "location": "USA Only",
-        "languages": ["JavaScript"],
-        "tools": ["React", "Sass"],
         "tags": ['Frontend', "Junior", "JavaScript", "React", "CSS"]
       },
 
@@ -63,13 +51,9 @@ export class ListingComponent {
         "new": false,
         "featured": false,
         "position": "Junior Frontend Developer",
-        "role": "Frontend",
-        "level": "Junior",
         "postedAt": "5d ago",
         "contract": "Contract",
         "location": "USA Only",
-        "languages": ["CSS", "JavaScript"],
-        "tools": [],
         "tags": ['Frontend', "Junior", "CSS", "JavaScript"]
       },
       {
@@ -79,13 +63,9 @@ export class ListingComponent {
         "new": false,
         "featured": false,
         "position": "Software Engineer",
-        "role": "Fullstack",
-        "level": "Midweight",
         "postedAt": "1w ago",
         "contract": "Full Time",
         "location": "Worldwide",
-        "languages": ["JavaScript"],
-        "tools": ["Ruby", "Sass"],
         "tags": ['FullStack', "Midweight", "JavaScript", "Ruby", "Sass"]
       },
       {
@@ -95,13 +75,9 @@ export class ListingComponent {
         "new": false,
         "featured": false,
         "position": "Junior Backend Developer",
-        "role": "Backend",
-        "level": "Junior",
         "postedAt": "2w ago",
         "contract": "Full Time",
         "location": "UK Only",
-        "languages": ["Ruby"],
-        "tools": ["RoR"],
         "tags": ['BAckend', "Junior", "Ruby", "RoR"]
       },
       {
@@ -111,13 +87,9 @@ export class ListingComponent {
         "new": false,
         "featured": false,
         "position": "Junior Developer",
-        "role": "Frontend",
-        "level": "Junior",
         "postedAt": "2w ago",
         "contract": "Full Time",
         "location": "Worldwide",
-        "languages": ["HTML", "JavaScript"],
-        "tools": ["Sass"],
         "tags": ['Frontend', "Junior", "HTML", "JavaScript", "Sass"]
       },
       {
@@ -127,13 +99,9 @@ export class ListingComponent {
         "new": false,
         "featured": false,
         "position": "Junior Frontend Developer",
-        "role": "Frontend",
-        "level": "Junior",
         "postedAt": "2w ago",
         "contract": "Full Time",
         "location": "USA Only",
-        "languages": ["JavaScript"],
-        "tools": ["Vue", "Sass"],
         "tags": ['Frontend', "Junior", "JavaScript", "Vue", "Sass"]
 
       },
@@ -144,13 +112,9 @@ export class ListingComponent {
         "new": false,
         "featured": false,
         "position": "Full Stack Engineer",
-        "role": "Fullstack",
-        "level": "Midweight",
         "postedAt": "3w ago",
         "contract": "Full Time",
         "location": "Worldwide",
-        "languages": ["JavaScript", "Python"],
-        "tools": ["Django"],
         "tags": ['FullStack', "Midweight", "JavaScript", "Python", "Django"]
       },
       {
@@ -160,13 +124,9 @@ export class ListingComponent {
         "new": false,
         "featured": false,
         "position": "Front-end Dev",
-        "role": "Frontend",
-        "level": "Junior",
         "postedAt": "1mo ago",
         "contract": "Part Time",
         "location": "Worldwide",
-        "languages": ["JavaScript"],
-        "tools": ["React", "Sass"],
         "tags": ["Frontend", "Junior", "JavaScript", "React", "Sass"]
       }
     ]
