@@ -17,11 +17,12 @@
         </div>
       </div>
     </div>
-    <div class="parent-right">
-      <div class="role">{{jobs.role}}</div>
+    <div class="parent-right" *ngFor="let tag of jobs.tags" class="tags">
+      <!-- <div class="role">{{jobs.role}}</div>
       <div class="level">{{jobs.level}}</div>
       <div class="language" *ngFor="let lang of jobs.languages">{{lang}}</div>
-      <div class="tools" *ngFor="let tool of jobs.tools">{{tool}}</div>
+      <div class="tools" *ngFor="let tool of jobs.tools">{{tool}}</div> -->
+      {{tag}}
     </div>
   </div>
 </div>

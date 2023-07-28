@@ -14,13 +14,14 @@ export class ListingComponent {
         "new": true,
         "featured": true,
         "position": "Senior Frontend Developer",
-        "role": "Frontend",
-        "level": "Senior",
+        // "role": "Frontend",
+        // "level": "Senior",
         "postedAt": "1d ago",
         "contract": "Full Time",
         "location": "USA Only",
-        "languages": ["HTML", "CSS", "JavaScript"],
-        "tools": []
+        // "languages": ["HTML", "CSS", "JavaScript"],
+        // "tools": [],
+        "tags": ['Frontend', "Senior", "HTML", "CSS", "JavaScript"]
       },
       {
         "id": 2,
@@ -35,7 +36,8 @@ export class ListingComponent {
         "contract": "Part Time",
         "location": "Remote",
         "languages": ["Python"],
-        "tools": ["React"]
+        "tools": ["React"],
+        "tags": ['FullStack', "Midweight", "Python", "React"]
       },
       {
         "id": 3,
@@ -50,7 +52,8 @@ export class ListingComponent {
         "contract": "Part Time",
         "location": "USA Only",
         "languages": ["JavaScript"],
-        "tools": ["React", "Sass"]
+        "tools": ["React", "Sass"],
+        "tags": ['Frontend', "Junior", "JavaScript", "React", "CSS"]
       },
 
       {
@@ -66,7 +69,8 @@ export class ListingComponent {
         "contract": "Contract",
         "location": "USA Only",
         "languages": ["CSS", "JavaScript"],
-        "tools": []
+        "tools": [],
+        "tags": ['Frontend', "Junior", "CSS", "JavaScript"]
       },
       {
         "id": 5,
@@ -81,7 +85,8 @@ export class ListingComponent {
         "contract": "Full Time",
         "location": "Worldwide",
         "languages": ["JavaScript"],
-        "tools": ["Ruby", "Sass"]
+        "tools": ["Ruby", "Sass"],
+        "tags": ['FullStack', "Midweight", "JavaScript", "Ruby", "Sass"]
       },
       {
         "id": 6,
@@ -96,7 +101,8 @@ export class ListingComponent {
         "contract": "Full Time",
         "location": "UK Only",
         "languages": ["Ruby"],
-        "tools": ["RoR"]
+        "tools": ["RoR"],
+        "tags": ['BAckend', "Junior", "Ruby", "RoR"]
       },
       {
         "id": 7,
@@ -111,7 +117,8 @@ export class ListingComponent {
         "contract": "Full Time",
         "location": "Worldwide",
         "languages": ["HTML", "JavaScript"],
-        "tools": ["Sass"]
+        "tools": ["Sass"],
+        "tags": ['Frontend', "Junior", "HTML", "JavaScript", "Sass"]
       },
       {
         "id": 8,
@@ -126,7 +133,9 @@ export class ListingComponent {
         "contract": "Full Time",
         "location": "USA Only",
         "languages": ["JavaScript"],
-        "tools": ["Vue", "Sass"]
+        "tools": ["Vue", "Sass"],
+        "tags": ['Frontend', "Junior", "JavaScript", "Vue", "Sass"]
+
       },
       {
         "id": 9,
@@ -141,7 +150,8 @@ export class ListingComponent {
         "contract": "Full Time",
         "location": "Worldwide",
         "languages": ["JavaScript", "Python"],
-        "tools": ["Django"]
+        "tools": ["Django"],
+        "tags": ['FullStack', "Midweight", "JavaScript", "Python", "Django"]
       },
       {
         "id": 10,
@@ -156,7 +166,8 @@ export class ListingComponent {
         "contract": "Part Time",
         "location": "Worldwide",
         "languages": ["JavaScript"],
-        "tools": ["React", "Sass"]
+        "tools": ["React", "Sass"],
+        "tags": ["Frontend", "Junior", "JavaScript", "React", "Sass"]
       }
     ]
 }
