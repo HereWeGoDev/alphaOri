@@ -1,26 +1,65 @@
 <div class="container">
-  <img src="./assets/images/bg-header-desktop.svg" alt="" />
-  <div class="parent" *ngFor="let jobs of data">
+
+  <!--<div *ngIf="filters.length" class="filters">
+    <div *ngfor="let filter of filters" class="filter"> {{filter}}
+      <span class="remove" (click)="removeFilter(filter)">X</span>
+      </div>
+  </div>-->
+  <div class="tags">Filtered list</div>
+  <div class="tags" *ngFor="let value of filters">{{value}}
+    <span class="remove" (click)="removeFilter(value)">X</span>
+  </div>
+  
+      <img src="./images/bg-header-desktop.svg" alt="">
+  <div class="parent" *ngFor="let jobs of filteredData">
     <div class="parent-left">
-      <img [src]="jobs.logo" alt="" class="logos" />
+      <img [src]="jobs.logo" alt="" class="logos">
       <div class="job-details">
         <div class="cmpny-details">
-          <div class="cmpny-name">{{ jobs.company }}</div>
+          <div class="cmpny-name">{{jobs.company}}</div>
           <div class="new" *ngIf="jobs.new">NEW!</div>
           <div class="featured" *ngIf="jobs.featured">FEATURED</div>
         </div>
-        <div class="job-position">{{ jobs.position }}</div>
+        <div class="job-position">{{jobs.position}}</div>
         <div class="job-duration">
-          <div class="ago">{{ jobs.postedAt }}</div>
-          <div class="full-part">{{ jobs.contract }}</div>
-          <div class="location">{{ jobs.location }}</div>
+          <div class="ago">{{jobs.postedAt}}</div>
+          <div class="full-part">{{jobs.contract}}</div>
+          <div class="location">{{jobs.location}}</div>
         </div>
       </div>
     </div>
     <div class="parent-right">
-      <div class="tags" *ngFor="let tag of jobs.tags">
-        {{ tag }}
-      </div>
+      <div class="tags" *ngFor="let accessedTag of jobs.tags"(click)="addToFilter(accessedTag)">{{accessedTag}}</div>
+
+      
     </div>
   </div>
 </div>
+  <!--<div class="role" (click)="addToFilter(jobs.role)">{{jobs.role}}</div>
+      <div class="level" (click)="addToFilter(jobs.level)">{{jobs.level}}</div>
+      <div class="language"  *ngFor="let lang of jobs.languages" (click)="addToFilter(lang)" >{{lang}}</div>
+      <div class="tools" *ngFor="let tool of jobs.tools" (click)="addToFilter(tool)">{{tool}}</div>-->
+  <!--<div class="tags">Filtered list</div>
+  <div class="filterlist" *ngFor="let value of filters">{{value}}</div>
+    <div class = "parent" *ngFor="let job of filteredData">
+     <script>
+        div.style.display='';
+      </script>-->
+      <!--<div class="parent-left">
+        <img [src]="job.logo" alt="" class="logos">
+        <div class="job-details">
+          <div class="cmpny-details">
+            <div class="cmpny-name">{{job.company}}</div>
+            <div class="new" *ngIf="job.new">NEW!</div>
+            <div class="featured" *ngIf="job.featured">FEATURED</div>
+          </div>
+          <div class="job-position">{{job.position}}</div>
+          <div class="job-duration">
+            <div class="ago">{{job.postedAt}}</div>
+            <div class="full-part">{{job.contract}}</div>
+            <div class="location">{{job.location}}</div>
+          </div>
+        </div>
+      </div>
+</div>-->
+
